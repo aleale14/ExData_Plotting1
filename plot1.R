@@ -8,7 +8,7 @@ plot1 <- function(){
       #plot on screen
       hist(d$Global_active_power,xlim=c(0,6),ylim=c(0,1200),include.lowest=TRUE,col="red",xlab="Global Active Power (kilowatts)", main="Global active power")
       #copy plot on png
-      dev.copy(png, file = "plot1.png",width=480,height=480) ## Copy my plot to a PNG file
+      dev.copy(png, file = "plot1.png",width=480,height=480)
       #close png
       dev.off()
 }
